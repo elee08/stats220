@@ -8,4 +8,4 @@ A little about me:
 - I am taking STATS 220 because I am considering doing a double major. 
 - I am interested in learning about statistics and how it can be combined with biology. 
 
-A meme that captures how I currently feel about my university studies is ![](https://tenor.com/vth47iwJ0BM.gif)
+A meme that captures how I currently feel about my university studies is ![](https://media1.tenor.com/m/-DGDln4Io4gAAAAC/tigger-bouncing.gif)
