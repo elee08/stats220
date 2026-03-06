@@ -19,6 +19,7 @@ Making a **bold word** and a *italic word*
   
 1. Ordered list one
 2. Ordered list two
+   
 [Visit my github](https://github.com/elee08/stats220)
 
 A second meme that captures how I currently feel about my university studies is ![](https://media.tenor.com/SGoAxtFEj8AAAAAi/dancing-snoopy.gif)
