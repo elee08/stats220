@@ -12,10 +12,13 @@ A meme that captures how I currently feel about my university studies is ![](htt
 
 # First type of header 
 ## Second type of header
+
 Making a **bold word** and a *italic word* 
 + Unordered list number one
-+ Unordered list number two 
++ Unordered list number two
+  
 1. Ordered list one
 2. Ordered list two
 [Visit my github](https://github.com/elee08/stats220)
+
 A second meme that captures how I currently feel about my university studies is ![](https://media.tenor.com/SGoAxtFEj8AAAAAi/dancing-snoopy.gif)
