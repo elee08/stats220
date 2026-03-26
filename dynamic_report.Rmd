@@ -41,13 +41,5 @@ margin-bottom: 25px;
 
 suppressPackageStartupMessages(library(tidyverse))
 
-# Define the URL of published Google Sheet CSV 
-
-csv_url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSZP5qQEGGk6uftQRyUv8qEvgGi9C4K9RsW9wKkV9LTZ00rsKFwwGVrL8pFxm22Cmfi0V8a-tfx0Li4/pub?output=csv"
-
-# Read the data directly from the web into a data frame called logged_data 
-
-logged_data = read_csv(csv_url)
-
 ```
 
