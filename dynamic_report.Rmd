@@ -56,15 +56,12 @@ logged_data <- read_csv(csv_url)
 
 # Copy the EXACT rename logic from exploration.R
 latest_data <- logged_data %>%
-  rename(
-    time_stamp = Timestamp,
-    app_name = `Which app sent this notification?`,
-    reason_notify = `What was the primary reason for this notification?`,
-    recovery_time = `How many minutes did it take to get back to your original task? (0–60min)`,
-    time_of_day = `What part of the day did this notification occur?`,
-    urgency_score = `What was the level of urgency of this notification? 
-Scale: 1 (Not at all) to 10 (Immediately)`
-  )
+  rename(time_stamp = 1,
+    app_name = 2,
+    reason_notify = 3,
+    recovery_time = 4,
+    time_of_day = 5,
+    urgency_score = 6)
 ```
 
 ```{r}
