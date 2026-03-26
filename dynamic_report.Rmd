@@ -45,12 +45,15 @@ suppressPackageStartupMessages(library(tidyverse))
 
 # Define the URL of published Google Sheet CSV
 # Make sure the link ends in "output=csv"
+
 csv_url <- "https://docs.google.com/spreadsheets/d/e/2PACX-1vSZP5qQEGGk6uftQRyUv8qEvgGi9C4K9RsW9wKkV9LTZ00rsKFwwGVrL8pFxm22Cmfi0V8a-tfx0Li4/pub?output=csv"
 
 # Read the data directly from the web into a data frame called logged_data
+
 logged_data <- read_csv(csv_url)
 
 # Copy the EXACT rename logic from exploration.R
+
 latest_data <- logged_data %>%
   rename(
     time_stamp = Timestamp,
@@ -131,10 +134,9 @@ final_plot_time <- ggplot(latest_data, aes(x = time_of_day)) +
 final_plot_time 
 
 # Primary Reasons for Interruptions 
-final_plot_reason <- 
-  final_plot_reason <- latest_data %>%
+final_plot_reason <- latest_data %>%
   mutate(reason_short = recode(reason_notify, 
-                               "Academic/Coursework (Classes, announcements, assignments)" = "Academic/Coursework",
+                             "Academic/Coursework (Classes, announcements, assignments)" = "Academic/Coursework",
                                "Life Admin & Utility (Gaspy, banking, fitness trackers, reminders)"="Life Admin & Utility", 
                                "Entertainment (Youtube/Games)"="Entertainment",
                                "Club/Extracurricular Activity (Meeting reminders, sponsorships)" = "Club/Extracurricular",
