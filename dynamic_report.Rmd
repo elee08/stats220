@@ -9,8 +9,6 @@ knitr::opts_chunk$set(echo=FALSE, message=FALSE, warning=FALSE, error=FALSE)
 ```
 
 ```{css}
-
-```{css}
 /* 1. Background Styling */
 body {
   background-color: #007373;
