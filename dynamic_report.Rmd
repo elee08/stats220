@@ -38,7 +38,7 @@ img {
 
 ## Digital Distraction Analysis
 
-```{r, echo=FALSE}
+```{r}
 
 #Load library quietly 
 suppressPackageStartupMessages(library(tidyverse))
@@ -63,7 +63,7 @@ Scale: 1 (Not at all) to 10 (Immediately)`
   )
 ```
 
-```{r, echo=FALSE}
+```{r}
 # Calculate all the summary value 
 # 1. Calculate the average minutes lost per notification
 avg_recovery <- mean(latest_data$recovery_time, na.rm = TRUE)
@@ -84,7 +84,7 @@ total_observations <- length(latest_data$app_name)
 
 ```
 
-```{r, echo=FALSE}
+```{r}
 # Use paste0 to join my variables into a professional paragraph.
 # \n creates a new line for better formatting.
 
@@ -102,7 +102,7 @@ cat(dynamic_content)
 
 ```
 
-```{r, echo=FALSE}
+```{r}
 
 #FINAL BAR CHARTS
 
