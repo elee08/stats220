@@ -39,7 +39,7 @@ margin-bottom: 25px;
 ```{r}
 # load library tidyverse quietly 
 
-suppressPackageStartupMessages(library(tidyverse)) 
+suppressPackageStartupMessages(library(tidyverse))
 
 # Define the URL of published Google Sheet CSV 
 
