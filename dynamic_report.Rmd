@@ -163,11 +163,3 @@ final_plot_urgency <- ggplot(latest_data, aes(x = urgency_score)) +
 # Prints the fourth chart
 final_plot_urgency
 ```
-
-```{r, echo=FALSE}
-
-
-
-
-
-```
