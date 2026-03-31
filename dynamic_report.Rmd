@@ -1,5 +1,5 @@
 ---
-title: My dynamic report
+title: "My dynamic report"
 output: html_fragment
 ---
 
@@ -90,23 +90,9 @@ total_observations <- length(latest_data$app_name)
 
 ```
 
-```{r}
-# Use paste0 to join my variables into a professional paragraph.
-# \n creates a new line for better formatting.
-
-dynamic_content <- paste0(
-  "Notification Analysis Summary \n",
-  "During this data collection period, I recorded a total of ", total_observations, " notifications. ",
-  "On average, each interruption cost me ", round(avg_recovery, 2), " minutes of productivity. ",
-  "Across all logs, I have lost a total of ", total_minutes_lost, " minutes to digital distractions. \n",
-  "In terms of urgency, the most critical notification I received was rated a ", max_urgency, 
-  " out of 10, where 1 meant not urgent and 10 meant extremely urgent, while my quickest recovery back to work took only ", quickest_recovery, " minute(s)."
-)
-
-# cat() prints the text so it looks like regular writing on your website.
-cat(dynamic_content)
-
-```
+Notification Analysis Summary \n
+During this data collection period, I recorded a total of `r total_observations ` notifications. 
+On average, each interruption cost me `r round(avg_recovery, 2)` minutes of productivity.  Across all logs, I have lost a total of `r total_minutes_lost` minutes to digital distractions. In terms of urgency, the most critical notification I received was rated a `r max_urgency` out of 10, where 1 meant not urgent and 10 meant extremely urgent, while my quickest recovery back to work took only `r quickest_recovery` minute(s). 
 
 ```{r}
 
