@@ -91,6 +91,7 @@ total_observations <- length(latest_data$app_name)
 ```
 
 Notification Analysis Summary \n
+
 During this data collection period, I recorded a total of `r total_observations ` notifications. 
 On average, each interruption cost me `r round(avg_recovery, 2)` minutes of productivity.  Across all logs, I have lost a total of `r total_minutes_lost` minutes to digital distractions. In terms of urgency, the most critical notification I received was rated a `r max_urgency` out of 10, where 1 meant not urgent and 10 meant extremely urgent, while my quickest recovery back to work took only `r quickest_recovery` minute(s). 
 
