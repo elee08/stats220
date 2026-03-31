@@ -45,6 +45,8 @@ img {
 
 ## Digital Distraction Analysis
 
+This report investigates the frequency and impact of digital notifications on my academic productivity. By tracking every interruption, including but not limited to the source app, the perceived urgency, the time required to regain focus, and distribution of notification based on the time of the day, I am analyzing how "micro-distractions" accumulate into significant time loss throughout a typical study day.
+
 ```{r}
 
 # Define the URL of published Google Sheet CSV
@@ -90,7 +92,7 @@ total_observations <- length(latest_data$app_name)
 
 ```
 
-Notification Analysis Summary \n
+## Notification Analysis Summary 
 
 During this data collection period, I recorded a total of `r total_observations ` notifications. 
 On average, each interruption cost me `r round(avg_recovery, 2)` minutes of productivity.  Across all logs, I have lost a total of `r total_minutes_lost` minutes to digital distractions. In terms of urgency, the most critical notification I received was rated a `r max_urgency` out of 10, where 1 meant not urgent and 10 meant extremely urgent, while my quickest recovery back to work took only `r quickest_recovery` minute(s). 
